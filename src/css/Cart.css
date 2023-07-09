@@ -1,0 +1,39 @@
+.cart-container{
+
+}
+h3{
+    text-align: center;
+    color: blue;
+}
+.cart-list{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.cart-list li{
+    list-style: none;
+    padding: 10px;
+}
+.cart-title{
+position: relative;
+right: 2px;
+}
+
+.cart-list img{
+width: 200px;
+height: 200px;
+}
+
+.cart-list button{
+position: relative;
+right: 130px;
+top: 20px;
+border: none;
+}
+.cart-list button:hover{
+    color: red;
+    background-color:white;
+    
+}
+

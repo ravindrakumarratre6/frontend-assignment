@@ -1,0 +1,63 @@
+
+.todo-conatiner{
+    text-align: center;
+}
+.shopping-container {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.shopping-container input {
+    width: 100%;
+    max-width: 30rem;
+    height: 2rem;
+}
+
+.shopping-container .btn {
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.shopping-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.todo-list li{
+    list-style: none;
+}
+.shopping-list .title {
+    position: relative;
+    right: 45px;
+    padding: 5px;
+}
+
+.shopping-list li {
+    padding: 2px;
+}
+
+.shopping-list img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+}
+
+.shopping-list button {
+    position: relative;
+    right: 150px;
+    top: 20px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .shopping-list .title {
+        right: 0;
+    }
+
+    .shopping-list button {
+        right: 0;
+        top: 0;
+    }
+}
